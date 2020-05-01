@@ -19,7 +19,7 @@ public class Main {
 		Fibonacci.fibonacci().forEach(i -> System.out.printf(" %d,", i));
 		System.out.printf("]");
 		
-		Integer numero = 5;
+		Integer numero = 377;
 		System.out.printf("\n\nO número %d %s Fibonnaci", 
 				numero, Boolean.TRUE.equals(Fibonacci.isFibonacci(numero))
 						? "é" : "não é");

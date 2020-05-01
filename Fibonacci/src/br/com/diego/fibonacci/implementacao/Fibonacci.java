@@ -29,7 +29,7 @@ public class Fibonacci {
 	public static Boolean isFibonacci(Integer valor) {
 		List<Integer> lista = fibonacci();
 		for(Integer v : lista) {
-			if (v == valor)
+			if (v.equals(valor))
 				return Boolean.TRUE;
 		}
 		return Boolean.FALSE;
